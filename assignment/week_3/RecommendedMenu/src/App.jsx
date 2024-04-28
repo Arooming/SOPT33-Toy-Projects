@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./style/GlobalStyle";
-import Header from "./components/header";
+import Header from "./components/Header";
 import theme from "./style/theme";
 import OnBoarding from "./components/OnBoarding";
 
