@@ -5,7 +5,7 @@ export const MENU = [
     secondCategory: "밥",
     thirdCategory: "국물 O",
     description: "마라탕",
-    imgURL: "../src/asset/Chinese/rice/rice1.jpeg",
+    imgURL: "/asset/Chinese/rice/rice1.jpeg",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const MENU = [
     secondCategory: "밥",
     thirdCategory: "국물 X",
     description: "마파두부 밥",
-    imgURL: "../src/asset/Chinese/rice/rice2.jpeg",
+    imgURL: "/asset/Chinese/rice/rice2.jpeg",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const MENU = [
     secondCategory: "면",
     thirdCategory: "국물 X",
     description: "마라샹궈",
-    imgURL: "../src/asset/Chinese/noodle/noodle1.jpeg",
+    imgURL: "/asset/Chinese/noodle/noodle1.jpeg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const MENU = [
     secondCategory: "면",
     thirdCategory: "국물 O",
     description: "우육면",
-    imgURL: "../src/asset/Chinese/noodle/noodle2.jpeg",
+    imgURL: "/asset/Chinese/noodle/noodle2.jpeg",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const MENU = [
     secondCategory: "고기/해물",
     thirdCategory: "국물 X",
     description: "꿔바로우",
-    imgURL: "../src/asset/Chinese/etc/etc1.jpeg",
+    imgURL: "/asset/Chinese/etc/etc1.jpeg",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const MENU = [
     secondCategory: "고기/해물",
     thirdCategory: "국물 O",
     description: "칠리새우",
-    imgURL: "../src/asset/Chinese/etc/etc2.jpeg",
+    imgURL: "/asset/Chinese/etc/etc2.jpeg",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const MENU = [
     secondCategory: "고기/해물",
     thirdCategory: "국물 O",
     description: "크림새우",
-    imgURL: "../src/asset/Chinese/etc/etc3.jpeg",
+    imgURL: "/asset/Chinese/etc/etc3.jpeg",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const MENU = [
     secondCategory: "밥",
     thirdCategory: "국물 X",
     description: "장어 덮밥",
-    imgURL: "../src/asset/Japanese/rice/rice1.jpeg",
+    imgURL: "/asset/Japanese/rice/rice1.jpeg",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const MENU = [
     secondCategory: "밥",
     thirdCategory: "국물 X",
     description: "초밥",
-    imgURL: "../src/asset/Japanese/rice/rice2.jpeg",
+    imgURL: "/asset/Japanese/rice/rice2.jpeg",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const MENU = [
     secondCategory: "밥",
     thirdCategory: "국물 O",
     description: "스키야키",
-    imgURL: "../src/asset/Japanese/rice/rice3.jpeg",
+    imgURL: "/asset/Japanese/rice/rice3.jpeg",
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const MENU = [
     secondCategory: "면",
     thirdCategory: "국물 O",
     description: "라멘",
-    imgURL: "../src/asset/Japanese/noodle/noodle1.jpeg",
+    imgURL: "/asset/Japanese/noodle/noodle1.jpeg",
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ export const MENU = [
     secondCategory: "면",
     thirdCategory: "국물 X",
     description: "마제소바",
-    imgURL: "../src/asset/Japanese/noodle/noodle2.webp",
+    imgURL: "/asset/Japanese/noodle/noodle2.webp",
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ export const MENU = [
     secondCategory: "고기/해물",
     thirdCategory: "국물 X",
     description: "타코야키",
-    imgURL: "../src/asset/Japanese/etc/etc1.jpeg",
+    imgURL: "/asset/Japanese/etc/etc1.jpeg",
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ export const MENU = [
     secondCategory: "고기/해물",
     thirdCategory: "국물 O",
     description: "규카츠",
-    imgURL: "../src/asset/Japanese/etc/etc2.jpeg",
+    imgURL: "/asset/Japanese/etc/etc2.jpeg",
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ export const MENU = [
     secondCategory: "밥",
     thirdCategory: "국물 O",
     description: "김치찌개",
-    imgURL: "../src/asset/Korean/rice/rice1.jpeg",
+    imgURL: "/asset/Korean/rice/rice1.jpeg",
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ export const MENU = [
     secondCategory: "밥",
     thirdCategory: "국물 O",
     description: "부대찌개",
-    imgURL: "../src/asset/Korean/rice/rice2.jpeg",
+    imgURL: "/asset/Korean/rice/rice2.jpeg",
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ export const MENU = [
     secondCategory: "밥",
     thirdCategory: "국물 X",
     description: "비빔밥",
-    imgURL: "../src/asset/Korean/rice/rice3.avif",
+    imgURL: "/asset/Korean/rice/rice3.avif",
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ export const MENU = [
     secondCategory: "면",
     thirdCategory: "국물 O",
     description: "냉면",
-    imgURL: "../src/asset/Korean/noodle/noodle1.jpeg",
+    imgURL: "/asset/Korean/noodle/noodle1.jpeg",
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ export const MENU = [
     secondCategory: "면",
     thirdCategory: "국물 X",
     description: "비빔국수",
-    imgURL: "../src/asset/Korean/noodle/noodle2.jpeg",
+    imgURL: "/asset/Korean/noodle/noodle2.jpeg",
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ export const MENU = [
     secondCategory: "면",
     thirdCategory: "국물 O",
     description: "잔치국수",
-    imgURL: "../src/asset/Korean/noodle/noodle3.jpeg",
+    imgURL: "/asset/Korean/noodle/noodle3.jpeg",
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ export const MENU = [
     secondCategory: "고기/해물",
     thirdCategory: "국물 O",
     description: "간장게장",
-    imgURL: "../src/asset/Korean/etc/etc1.jpeg",
+    imgURL: "/asset/Korean/etc/etc1.jpeg",
   },
   {
     id: 22,
@@ -173,6 +173,6 @@ export const MENU = [
     secondCategory: "고기/해물",
     thirdCategory: "국물 X",
     description: "삼겹살",
-    imgURL: "../src/asset/Korean/etc/etc2.jpeg",
+    imgURL: "/asset/Korean/etc/etc2.jpeg",
   },
 ];
