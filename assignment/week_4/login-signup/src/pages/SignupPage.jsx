@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import Header from "../components/Header";
 import { SIGNUP_INPUT_CONTENTS } from "../constants/inputContents";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import API from "../libs/api";
 import { useNavigate } from "react-router-dom";
 
@@ -13,7 +13,6 @@ const SignupPage = () => {
   const [pw, setPw] = useState("");
   const [checkedPw, setCheckedPw] = useState("");
   const [nickname, setNickname] = useState("");
-  const [disabled, setDisabled] = useState(false);
 
   // 이미 존재하는 id인지 여부를 get 하는 함수
   const getIsExistValue = () => {
@@ -99,17 +98,8 @@ const SignupPage = () => {
 
   // 회원가입 버튼 클릭 시 post하는 함수
   const handleClickSignupBtn = () => {
-    if (!disabled) {
-      postUserInfo();
-    }
+    postUserInfo();
   };
-
-  useEffect(() => {
-    // id 값이 있고, 중복되는 id가 없고, 비밀번호가 일치하고, 닉네임이 입력된 경우
-    id && !isExistId && pw === checkedPw && nickname
-      ? setDisabled(false)
-      : setDisabled(true);
-  }, [id, isExistId, pw, checkedPw, nickname]);
 
   return (
     <St.SignupSection>
@@ -129,6 +119,7 @@ const SignupPage = () => {
                 <St.DoubleCheckBtn
                   $isExistId={isExistId}
                   $default={!id.length}
+                  disabled={!id || isExistId || pw !== checkedPw || !nickname}
                   onClick={handleClickDoubleCheckBtn}
                 >
                   {content.doubleBtn}
@@ -146,7 +137,10 @@ const SignupPage = () => {
         );
       })}
 
-      <St.SignupBtn $disabled={disabled} onClick={handleClickSignupBtn}>
+      <St.SignupBtn
+        onClick={handleClickSignupBtn}
+        disabled={!id || isExistId || pw !== checkedPw || !nickname}
+      >
         회원가입
       </St.SignupBtn>
     </St.SignupSection>
@@ -213,8 +207,6 @@ const St = {
     background-color: ${({ theme }) => theme.colors.black};
     color: ${({ theme }) => theme.colors.white};
     font-size: 1.2rem;
-
-    opacity: ${({ $disabled }) => ($disabled ? 0.3 : 1)};
   `,
 };
 
